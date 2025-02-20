@@ -25,7 +25,7 @@ SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1sjN0itwy_sF6JSEVBPSFtlp3YKObrkrX"
 
 # Cities to search in
-CITIES =[
+CITIES1 =[
     "Abilene", "Akron", "Albany", "Albuquerque", "Anchorage", "Anderson", "Ann Arbor", "Appleton", "Arlington", "Asheville",
     "Aspen", "Athens", "Atlanta", "Augusta", "Austin", "Baltimore", "Birmingham", "Boise", "Boston", "Buffalo",
     "Charleston", "Charlotte", "Chicago", "Cincinnati", "Cleveland", "Colorado Springs", "Columbia", "Columbus", "Dallas", "Denver",
@@ -59,7 +59,8 @@ CITIES =[
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
-
+CITIES =[
+    "Abilene"]
 def restart_tor():
     """Restart Tor to get a new IP address."""
     print("\n🔄 Restarting Tor...")
