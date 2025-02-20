@@ -22,7 +22,7 @@ TOR_LOG_FILE = "tor_log.txt"
 
 # Google Drive API Credentials
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
-DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
+DRIVE_FOLDER_ID = "1sjN0itwy_sF6JSEVBPSFtlp3YKObrkrX"
 
 # Cities to search in
 CITIES =[
